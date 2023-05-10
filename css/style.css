@@ -519,6 +519,10 @@ footer {
     row-gap: 10px;
 }
 
+.box h5 {
+    padding-bottom: 3px;
+}
+
 .progress-bar {
     width: 100%;
     height: 15px;
@@ -528,14 +532,53 @@ footer {
 .progress-bar > div {
     font-size: 14px;
     color: white;
+    font-weight: bold;
     width: 95%;
     height: 100%;
-    background-color: #007bff;
+    background-color: lightseagreen;
 }
 
+.progress-bar#python > div {
+    width: 50%;
+}
+
+.progress-bar#java-se > div {
+    width: 90%;
+}
+
+.progress-bar#java-ee > div {
+    width: 50%;
+}
+
+.progress-bar#spring > div {
+    width: 50%;
+}
+
+.progress-bar#postgre-sql > div {
+    width: 20%;
+}
+
+.progress-bar#photoshop > div {
+    width: 90%;
+}
+
+.progress-bar#premier-pro > div {
+    width: 85%;
+}
+
+
+
 #box-2 .progress-bar > div,
+#box-6 .progress-bar > div {
+    background-color: darkseagreen;
+}
+
+#box-3 .progress-bar > div,
+#box-7 .progress-bar > div {
+    background-color: darksalmon;
+}
+
 #box-4 .progress-bar > div,
-#box-6 .progress-bar > div,
 #box-8 .progress-bar > div {
-    background-color: green;
+    background-color: teal;
 }
